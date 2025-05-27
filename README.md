@@ -1,6 +1,6 @@
 # Floorplan-to-Exterior Generator using Diffusion Models
 
-A simple one-click Google Colab notebook that transforms 2D floorplan images into realistic house exterior designs using AI. Specialized for **Pakistani architecture** styles.
+A simple one-click Google Colab notebook that transforms 2D floorplan images into realistic house exterior designs using AI (Detecting the Number of floors and others using the OCR). Specialized for **Pakistani architecture** styles.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/floorplan-to-exterior-generator/blob/main/Floorplan_to_Exterior_Generator.ipynb)
 
