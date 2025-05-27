@@ -28,7 +28,7 @@ from floorplan_generator import generate_house_exterior
 # This handles everything: upload, analysis, and generation
 result = generate_house_exterior()
 
-# Shows your floorplan → exterior design
+# Shows your floorplan → detecting the num of floors and others → exterior design
 display_results(result)
 ```
 
@@ -38,15 +38,15 @@ display_results(result)
 
 | Input Floorplan | Generated Exterior | Auto-Detected |
 |----------------|-------------------|---------------|
-| ![1-Floor Plan A](examples/input_1floor_a.jpg) | ![1-Floor Output A](examples/output_1floor_a.jpg) | 3BR/2BA, 1 Floor |
-| ![1-Floor Plan B](examples/input_1floor_b.jpg) | ![1-Floor Output B](examples/output_1floor_b.jpg) | 2BR/1BA, 1 Floor |
+| ![1-Floor Plan A](examples/input_1floor_a.jpg) | ![1-Floor Output A](examples/output_1floor_a.jpg) | 1 Floor |
+| ![1-Floor Plan B](examples/input_1floor_b.jpg) | ![1-Floor Output B](examples/output_1floor_b.jpg) | 1 Floor |
 
 ### Two Floor Designs
 
 | Input Floorplan | Generated Exterior | Auto-Detected |
 |----------------|-------------------|---------------|
-| ![2-Floor Plan A](examples/input_2floor_a.jpg) | ![2-Floor Output A](examples/output_2floor_a.jpg) | 4BR/3BA, 2 Floors |
-| ![2-Floor Plan B](examples/input_2floor_b.jpg) | ![2-Floor Output B](examples/output_2floor_b.jpg) | 3BR/2BA, 2 Floors |
+| ![2-Floor Plan A](examples/input_2floor_a.jpeg) | ![2-Floor Output A](examples/output_2floor_a.jpg) | 2 Floors |
+| ![2-Floor Plan B](examples/input_2floor_b.jpeg) | ![2-Floor Output B](examples/output_2floor_b.jpg) | 2 Floors |
 
 ### Style Variations
 
